@@ -1,0 +1,237 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good day",
+                "Greetings"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there! How can I help you?",
+                "Hey! What can I do for you today?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "brain_tumor_info",
+            "patterns": [
+                "What is a brain tumor?",
+                "Tell me about brain tumors",
+                "Brain tumor overview",
+                "What do you know about brain tumors?"
+            ],
+            "responses": [
+                "A brain tumor is an abnormal growth of cells within the brain. It can be benign (non-cancerous) or malignant (cancerous). Common types include pituitary adenomas, meningiomas, and gliomas.",
+                "Brain tumors can develop in different parts of the brain and can affect various functions depending on their location. They require medical attention and often treatment to manage symptoms and slow their growth.",
+                "Brain tumors are complex and can present a range of symptoms depending on their type, size, and location. Treatment options vary and may include surgery, radiation therapy, chemotherapy, or a combination of these."
+            ],
+            "context_set": "brain_tumor"
+        },
+        {
+            "tag": "prognosis",
+            "patterns": [
+                "What is the outlook for someone with a brain tumor?",
+                "Can you tell me about the prognosis of brain tumors?",
+                "What is the survival rate for brain tumors?"
+            ],
+            "responses": [
+                "The prognosis for brain tumors varies depending on factors such as the type of tumor, its size, location, and the individual's overall health. It's essential to discuss prognosis and treatment options with a healthcare provider for personalized information.",
+                "Brain tumor prognosis can vary widely, and it's essential to consider factors such as tumor type, stage, and treatment response. Your healthcare provider can provide more specific information based on your individual circumstances.",
+                "Survival rates and prognosis for brain tumors depend on several factors, including tumor type, stage, and treatment response. Your healthcare provider can provide personalized information based on your diagnosis."
+            ],
+            "context_set": "brain_tumor"
+        },
+        {
+            "tag": "prevention",
+            "patterns": [
+                "Can brain tumors be prevented?",
+                "Are there ways to lower the risk of brain tumors?",
+                "How can I reduce my chances of getting a brain tumor?"
+            ],
+            "responses": [
+                "While brain tumors cannot always be prevented, maintaining a healthy lifestyle, avoiding exposure to known carcinogens, and protecting against head injuries may help reduce the risk. It's essential to consult with a healthcare provider for personalized advice.",
+                "While it's not always possible to prevent brain tumors, certain lifestyle choices such as avoiding smoking, maintaining a healthy weight, and protecting against head injuries may help reduce the risk. Your healthcare provider can provide personalized recommendations based on your medical history and risk factors.",
+                "Reducing the risk of brain tumors may involve lifestyle modifications such as avoiding exposure to carcinogens, maintaining a healthy diet and weight, and protecting against head injuries. It's essential to discuss risk reduction strategies with a healthcare provider for personalized advice."
+            ],
+            "context_set": "brain_tumor"
+        },
+        {
+            "tag": "emotional_support",
+            "patterns": [
+                "I'm scared about my brain tumor",
+                "How can I cope with the diagnosis of a brain tumor?",
+                "I'm feeling anxious about my brain tumor",
+                "Dealing with emotions after a brain tumor diagnosis"
+            ],
+            "responses": [
+                "It's normal to feel scared or anxious after a brain tumor diagnosis. Remember that you're not alone, and there are support groups, counselors, and healthcare professionals who can provide assistance and guidance. Taking care of your emotional well-being is an essential part of the treatment process.",
+                "Coping with a brain tumor diagnosis can be challenging, but there are resources and support available to help you navigate this journey. Don't hesitate to reach out to loved ones, support groups, or mental health professionals for assistance and guidance.",
+                "Dealing with the emotions surrounding a brain tumor diagnosis can be overwhelming, but it's essential to remember that support is available. Whether through counseling, support groups, or talking to loved ones, seeking help can provide comfort and guidance during this challenging time."
+            ],
+            "context_set": "brain_tumor"
+        },
+        {
+            "tag": "pituitary_tumor_info",
+            "patterns": [
+                "What is a pituitary tumor?",
+                "Tell me about pituitary adenomas",
+                "Pituitary tumor details",
+                "What can you tell me about pituitary tumors?"
+            ],
+            "responses": [
+                "Pituitary tumors, also known as pituitary adenomas, develop directly within the pituitary gland, situated at the base of the brain. These growths can disrupt hormone production, resulting in various symptoms such as vision changes, persistent headaches, and hormonal imbalances.",
+                "A pituitary tumor, or pituitary adenoma, is a growth that occurs in the pituitary gland. These tumors can cause hormonal imbalances and may require treatment depending on their size and symptoms.",
+                "Pituitary tumors are growths that occur in the pituitary gland, which is located at the base of the brain. They can cause hormonal imbalances and other symptoms, necessitating medical evaluation and treatment."
+            ],
+            "context_set": "pituitary_tumor"
+        },
+        {
+            "tag": "pituitary_symptoms",
+            "patterns": [
+                "What are the symptoms?",
+                "What are the symptoms of a pituitary tumor?",
+                "Signs of pituitary adenomas",
+                "Pituitary tumor symptoms",
+                "How can I recognize pituitary tumor symptoms?",
+                "pituitary tumor signs",
+                "what are the first signs of a pituitary tumor?"
+            ],
+            "responses": [
+                "Common symptoms of pituitary adenomas include hormonal imbalances (such as excess prolactin or growth hormone), vision changes, persistent headaches, and fatigue.",
+                "Symptoms of a pituitary tumor may include changes in vision, headaches, hormonal imbalances, and fatigue.",
+                "Pituitary tumors can cause symptoms such as changes in vision, headaches, hormonal imbalances, and fatigue."
+            ],
+            "context_set": "pituitary_tumor"
+        },
+        {
+            "tag": "treatment_pituitary",
+            "patterns": [
+                "What are the treatment options for pituitary adenomas?",
+                "How are pituitary tumors treated?",
+                "Can pituitary tumors be treated?",
+                "pituitary tumor treatment options",
+                "how can I treat a pituitary tumor?"
+            ],
+            "responses": [
+                "Treatment options for pituitary adenomas include medication, surgery, and radiation therapy.",
+                "Pituitary tumors may be treated with hormone-regulating medications, surgical removal, or radiation therapy.",
+                "Options for treating pituitary adenomas may include medication, surgery, or radiation therapy."
+            ],
+            "context_set": "pituitary_tumor"
+        },
+        {
+            "tag": "follow_up_hormonal_imbalances",
+            "patterns": [
+                "How can I manage hormonal imbalances caused by a pituitary tumor?",
+                "Managing hormonal imbalances from pituitary tumors",
+                "What can I do to address hormonal imbalances from pituitary tumors?"
+            ],
+            "responses": [
+                "Managing hormonal imbalances from pituitary tumors may involve medication, such as dopamine agonists or somatostatin analogs, or surgery to remove the tumor.",
+                "Treatment for hormonal imbalances caused by pituitary tumors may include medications to regulate hormone levels or surgical removal of the tumor.",
+                "Options for managing hormonal imbalances from pituitary tumors may include medications, surgery, or other targeted therapies."
+            ],
+            "context_set": "pituitary_tumor"
+        },
+        {
+            "tag": "diagnostic_tests",
+            "patterns": [
+                "What tests are used to diagnose brain tumors?",
+                "How are brain tumors detected?",
+                "Diagnostic procedures for brain tumors",
+                "Tests for identifying brain tumors",
+                "Methods to diagnose brain tumors"
+            ],
+            "responses": [
+                "Brain tumors are typically diagnosed using imaging tests such as MRI and CT scans, which provide detailed pictures of the brain. Other diagnostic tests can include biopsies, where a small sample of the tumor is examined for cancer cells, and neurological exams to check brain function.",
+                "The diagnosis of brain tumors often involves MRI scans, CT scans, and sometimes PET scans to visualize the tumor. Biopsies may also be conducted to determine the type and grade of the tumor.",
+                "Diagnostic tests for brain tumors include MRI scans, CT scans, and biopsies. These tests help in identifying the presence, type, and extent of the tumor."
+            ],
+            "context_set": "diagnostic_tests"
+        },
+        {
+            "tag": "diet_nutrition",
+            "patterns": [
+                "What diet should a brain tumor patient follow?",
+                "Is there a recommended nutrition plan for brain tumor patients?",
+                "Diet and nutrition advice for brain tumor",
+                "How should brain tumor patients manage their diet?",
+                "Nutritional considerations for brain tumor patients"
+            ],
+            "responses": [
+                "While there's no one-size-fits-all diet for brain tumor patients, a balanced diet rich in fruits, vegetables, whole grains, and lean proteins can support overall health. It's important to consult with a dietitian for personalized dietary advice.",
+                "Nutritional needs for brain tumor patients can vary. A dietitian can provide tailored advice, often recommending a diet high in nutrients and energy to help manage treatment side effects and support recovery.",
+                "For brain tumor patients, maintaining a healthy diet is important. This can include eating a variety of nutrient-rich foods to support the body during treatment. Consulting with a healthcare provider for personalized advice is recommended."
+            ],
+            "context_set": "diet_nutrition"
+        },
+        {
+            "tag": "radiation_therapy",
+            "patterns": [
+                "How does radiation therapy work for brain tumors?",
+                "What are the side effects of radiation therapy for brain tumors?",
+                "Can you explain radiation therapy for brain tumor treatment?",
+                "Details on radiation therapy for brain tumors",
+                "Radiation treatment for brain tumors explained"
+            ],
+            "responses": [
+                "Radiation therapy for brain tumors involves using high-energy beams to target and destroy cancer cells. Side effects can include fatigue, hair loss near the treated area, and headaches, but these vary based on the treatment specifics.",
+                "Radiation therapy targets cancer cells in the brain with high-energy rays to destroy or damage them, potentially causing side effects like fatigue, skin changes, and cognitive effects, depending on the radiation dose and area treated.",
+                "For brain tumor treatment, radiation therapy aims to eliminate cancer cells or slow their growth. Side effects might include fatigue, headaches, and memory problems, which should be discussed with a healthcare provider."
+            ],
+            "context_set": "radiation_therapy"
+        },
+        {
+            "tag": "surgery_options",
+            "patterns": [
+                "What surgical options are available for brain tumors?",
+                "Can brain tumors always be removed surgically?",
+                "Details about surgery for brain tumor removal",
+                "Brain tumor surgery explained",
+                "Types of surgical procedures for brain tumors"
+            ],
+            "responses": [
+                "Surgical options for brain tumors vary and may include craniotomy, where a portion of the skull is removed to access the tumor, and minimally invasive endoscopic surgery. The feasibility depends on the tumor's size, type, and location.",
+                "Surgery to remove brain tumors aims to take out as much of the tumor as safely possible. Some tumors may be inaccessible or too risky to fully remove, in which case other treatments like radiation or chemotherapy might be used.",
+                "Brain tumor surgery can range from traditional open surgery to less invasive methods like neuroendoscopy. The approach depends on the tumor's location and nature. Not all tumors are candidates for complete surgical removal."
+            ],
+            "context_set": "surgery_options"
+        },
+        {
+            "tag": "chemotherapy",
+            "patterns": [
+                "What role does chemotherapy play in treating brain tumors?",
+                "Can you explain how chemotherapy is used for brain tumors?",
+                "Chemotherapy for brain tumors details",
+                "How is chemotherapy administered for brain tumors?",
+                "Understanding chemotherapy in brain tumor treatment"
+            ],
+            "responses": [
+                "Chemotherapy for brain tumors involves using drugs to kill or stop the growth of cancer cells. It can be administered orally, intravenously, or directly into the cerebrospinal fluid, depending on the type and location of the tumor.",
+                "Chemotherapy is a treatment option that uses drugs to target cancer cells in brain tumors. Its effectiveness and method of administration vary based on the tumor's specific characteristics and patient's overall health.",
+                "In treating brain tumors, chemotherapy may be used alone or in combination with surgery and radiation. The treatment aims to destroy cancer cells, with the method of delivery tailored to the individual's condition."
+            ],
+            "context_set": "chemotherapy"
+        },
+        {
+            "tag": "recovery_process",
+            "patterns": [
+                "What does the recovery process look like for brain tumor patients?",
+                "Recovery after brain tumor treatment?",
+                "How long does recovery from brain tumor treatment take?",
+                "Understanding the recovery phase for brain tumor patients",
+                "Post-treatment recovery for brain tumor"
+            ],
+            "responses": [
+                "The recovery process for brain tumor patients varies greatly and depends on the type of treatment, the size and location of the tumor, and individual health factors. It can include rehabilitation, follow-up appointments, and monitoring for any signs of recurrence.",
+                "Recovery from brain tumor treatment can involve physical therapy, occupational therapy, and other forms of rehabilitation to address side effects of treatment and improve quality of life. The duration varies widely among individuals.",
+                "Post-treatment recovery for brain tumor patients is personalized, involving monitoring, rehabilitation, and support for physical and cognitive effects. Recovery time and needs differ based on the treatment's extent and the patient's condition."
+            ],
+            "context_set": "recovery_process"
+        }
+    ]
+}
